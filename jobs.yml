@@ -26,3 +26,4 @@ jobs:
     steps:
       - GET: dv-img
       - GET: dv-img-opts
+      - GET: s1
