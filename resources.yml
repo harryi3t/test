@@ -44,3 +44,9 @@ resources:
     source:
       memory: 64
       cpu-shares: 512
+  
+  - name: s1
+    type: dockerOptions
+    source:
+      memory: 64
+      cpu-shares: 512
