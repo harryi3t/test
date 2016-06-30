@@ -6,7 +6,7 @@ resources:
       name: harryi3t/box
       branch: master
 
-  - name: dv-repo05
+  - name: dv-repo
     type: gitRepo
     integration: git
     source:
