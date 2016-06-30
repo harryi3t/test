@@ -13,40 +13,16 @@ jobs:
       - GET: box-img
       - GET: box-img-opts
 
-# TEST deployment for BOX
-  - name: box-test-aws
-    type: ecsDeploy
+# CI for dv
+  - name: dv-ci
+    type: runCI
     steps:
-      - GET: box-man
-      - GET: box-t-params
-      - GET: env-test-aws
+      - GET: dv-repo
+      - PUT: dv-img
 
-
-
-
-
-
-
-# VISUALIZER CODE
-
-## CI for VISUALIZER
-#  - name: dv-ci
-#    type: runCI
-#    steps:
-#      - GET: dv-repo
-#      - PUT: dv-img
-#
-## manifest gen for VISUALIZER
-#  - name: dv-man
-#    type: manifest
-#    steps:
-#      - GET: dv-img
-#      - GET: dv-img-opts
-#
-## TEST deployment for VISUALIZER
-#  - name: dv-test
-#    type: ecsDeploy
-#    steps:
-#      - GET: dv-man
-#      - GET: dv-params
-#      - GET: env-test-aws
+# manifest gen for dv
+  - name: dv-man
+    type: manifest
+    steps:
+      - GET: dv-img
+      - GET: dv-img-opts
