@@ -1,0 +1,206 @@
+{
+  "info": {
+    "_postman_id": "4b5a3329-85cf-4498-bcac-8a701d46ea14",
+    "name": "Sample Collection",
+    "schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "r1",
+      "_postman_id": "c20b874a-6c57-4824-9424-368dbb537d43",
+      "request": {
+        "auth": {
+          "type": "ntlm",
+          "ntlm": {
+            "username": "postman",
+            "password": "NTLM@123"
+          }
+        },
+        "method": "GET",
+        "header": [
+          
+        ],
+        "url": "34.214.154.175"
+      },
+      "response": [
+        {
+          "id": "32559a21-afc2-4e72-ac00-0a36c07444d4",
+          "name": "401 - option1",
+          "originalRequest": {
+            "method": "GET",
+            "header": [
+              
+            ],
+            "url": "34.214.154.175/1"
+          },
+          "status": "Unauthorized",
+          "code": 401,
+          "_postman_previewlanguage": "html",
+          "header": [
+            {
+              "key": "Content-Length",
+              "value": "1293",
+              "name": "Content-Length",
+              "description": ""
+            },
+            {
+              "key": "Content-Type",
+              "value": "text/html",
+              "name": "Content-Type",
+              "description": ""
+            },
+            {
+              "key": "Date",
+              "value": "Thu, 28 Jun 2018 06:56:48 GMT",
+              "name": "Date",
+              "description": ""
+            },
+            {
+              "key": "Server",
+              "value": "Microsoft-IIS/7.5",
+              "name": "Server",
+              "description": ""
+            },
+            {
+              "key": "WWW-Authenticate",
+              "value": "Negotiate,NTLM",
+              "name": "WWW-Authenticate",
+              "description": ""
+            },
+            {
+              "key": "X-Powered-By",
+              "value": "ASP.NET",
+              "name": "X-Powered-By",
+              "description": ""
+            }
+          ],
+          "cookie": [
+            
+          ],
+          "body": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">\r\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=iso-8859-1\"/>\r\n<title>401 - Unauthorized: Access is denied due to invalid credentials.</title>\r\n<style type=\"text/css\">\r\n<!--\r\nbody{margin:0;font-size:.7em;font-family:Verdana, Arial, Helvetica, sans-serif;background:#EEEEEE;}\r\nfieldset{padding:0 15px 10px 15px;} \r\nh1{font-size:2.4em;margin:0;color:#FFF;}\r\nh2{font-size:1.7em;margin:0;color:#CC0000;} \r\nh3{font-size:1.2em;margin:10px 0 0 0;color:#000000;} \r\n#header{width:96%;margin:0 0 0 0;padding:6px 2% 6px 2%;font-family:\"trebuchet MS\", Verdana, sans-serif;color:#FFF;\r\nbackground-color:#555555;}\r\n#content{margin:0 0 0 2%;position:relative;}\r\n.content-container{background:#FFF;width:96%;margin-top:8px;padding:10px;position:relative;}\r\n-->\r\n</style>\r\n</head>\r\n<body>\r\n<div id=\"header\"><h1>Server Error</h1></div>\r\n<div id=\"content\">\r\n <div class=\"content-container\"><fieldset>\r\n  <h2>401 - Unauthorized: Access is denied due to invalid credentials.</h2>\r\n  <h3>You do not have permission to view this directory or page using the credentials that you supplied.</h3>\r\n </fieldset></div>\r\n</div>\r\n</body>\r\n</html>\r\n"
+        },
+        {
+          "id": "790387e0-9293-4d7d-931b-5c4281e8a489",
+          "name": "401 - option3",
+          "originalRequest": {
+            "method": "GET",
+            "header": [
+              
+            ],
+            "url": "34.214.154.175/3"
+          },
+          "status": "Unauthorized",
+          "code": 401,
+          "_postman_previewlanguage": "html",
+          "header": [
+            {
+              "key": "Content-Length",
+              "value": "1293",
+              "name": "Content-Length",
+              "description": "The length of the response body in octets (8-bit bytes)"
+            },
+            {
+              "key": "Content-Type",
+              "value": "text/html",
+              "name": "Content-Type",
+              "description": "The mime type of this content"
+            },
+            {
+              "key": "Date",
+              "value": "Thu, 28 Jun 2018 06:56:48 GMT",
+              "name": "Date",
+              "description": "The date and time that the message was sent"
+            },
+            {
+              "key": "Server",
+              "value": "Microsoft-IIS/7.5",
+              "name": "Server",
+              "description": "A name for the server"
+            },
+            {
+              "key": "WWW-Authenticate",
+              "value": "Negotiate",
+              "name": "WWW-Authenticate",
+              "description": "Indicates the authentication scheme that should be used to access the requested entity."
+            },
+            {
+              "key": "WWW-Authenticate",
+              "value": "NTLM",
+              "name": "WWW-Authenticate",
+              "description": "Indicates the authentication scheme that should be used to access the requested entity."
+            },
+            {
+              "key": "X-Powered-By",
+              "value": "ASP.NET",
+              "name": "X-Powered-By",
+              "description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+            }
+          ],
+          "cookie": [
+            
+          ],
+          "body": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">\r\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=iso-8859-1\"/>\r\n<title>401 - Unauthorized: Access is denied due to invalid credentials.</title>\r\n<style type=\"text/css\">\r\n<!--\r\nbody{margin:0;font-size:.7em;font-family:Verdana, Arial, Helvetica, sans-serif;background:#EEEEEE;}\r\nfieldset{padding:0 15px 10px 15px;} \r\nh1{font-size:2.4em;margin:0;color:#FFF;}\r\nh2{font-size:1.7em;margin:0;color:#CC0000;} \r\nh3{font-size:1.2em;margin:10px 0 0 0;color:#000000;} \r\n#header{width:96%;margin:0 0 0 0;padding:6px 2% 6px 2%;font-family:\"trebuchet MS\", Verdana, sans-serif;color:#FFF;\r\nbackground-color:#555555;}\r\n#content{margin:0 0 0 2%;position:relative;}\r\n.content-container{background:#FFF;width:96%;margin-top:8px;padding:10px;position:relative;}\r\n-->\r\n</style>\r\n</head>\r\n<body>\r\n<div id=\"header\"><h1>Server Error</h1></div>\r\n<div id=\"content\">\r\n <div class=\"content-container\"><fieldset>\r\n  <h2>401 - Unauthorized: Access is denied due to invalid credentials.</h2>\r\n  <h3>You do not have permission to view this directory or page using the credentials that you supplied.</h3>\r\n </fieldset></div>\r\n</div>\r\n</body>\r\n</html>\r\n"
+        },
+        {
+          "id": "fe135cf4-6cb0-48dc-bcd2-4f461ed362df",
+          "name": "401 - option2",
+          "originalRequest": {
+            "method": "GET",
+            "header": [
+              
+            ],
+            "url": "34.214.154.175/2"
+          },
+          "status": "Unauthorized",
+          "code": 401,
+          "_postman_previewlanguage": "html",
+          "header": [
+            {
+              "key": "Content-Length",
+              "value": "1293",
+              "name": "Content-Length",
+              "description": ""
+            },
+            {
+              "key": "Content-Type",
+              "value": "text/html",
+              "name": "Content-Type",
+              "description": ""
+            },
+            {
+              "key": "Date",
+              "value": "Thu, 28 Jun 2018 06:56:48 GMT",
+              "name": "Date",
+              "description": ""
+            },
+            {
+              "key": "Server",
+              "value": "Microsoft-IIS/7.5",
+              "name": "Server",
+              "description": ""
+            },
+            {
+              "key": "WWW-Authenticate",
+              "value": "NTLM,Negotiate",
+              "name": "WWW-Authenticate",
+              "description": ""
+            },
+            {
+              "key": "X-Powered-By",
+              "value": "ASP.NET",
+              "name": "X-Powered-By",
+              "description": ""
+            }
+          ],
+          "cookie": [
+            
+          ],
+          "body": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">\r\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=iso-8859-1\"/>\r\n<title>401 - Unauthorized: Access is denied due to invalid credentials.</title>\r\n<style type=\"text/css\">\r\n<!--\r\nbody{margin:0;font-size:.7em;font-family:Verdana, Arial, Helvetica, sans-serif;background:#EEEEEE;}\r\nfieldset{padding:0 15px 10px 15px;} \r\nh1{font-size:2.4em;margin:0;color:#FFF;}\r\nh2{font-size:1.7em;margin:0;color:#CC0000;} \r\nh3{font-size:1.2em;margin:10px 0 0 0;color:#000000;} \r\n#header{width:96%;margin:0 0 0 0;padding:6px 2% 6px 2%;font-family:\"trebuchet MS\", Verdana, sans-serif;color:#FFF;\r\nbackground-color:#555555;}\r\n#content{margin:0 0 0 2%;position:relative;}\r\n.content-container{background:#FFF;width:96%;margin-top:8px;padding:10px;position:relative;}\r\n-->\r\n</style>\r\n</head>\r\n<body>\r\n<div id=\"header\"><h1>Server Error</h1></div>\r\n<div id=\"content\">\r\n <div class=\"content-container\"><fieldset>\r\n  <h2>401 - Unauthorized: Access is denied due to invalid credentials.</h2>\r\n  <h3>You do not have permission to view this directory or page using the credentials that you supplied.</h3>\r\n </fieldset></div>\r\n</div>\r\n</body>\r\n</html>\r\n"
+        }
+      ]
+    }
+  ],
+  "protocolProfileBehavior": {
+    
+  }
+}
